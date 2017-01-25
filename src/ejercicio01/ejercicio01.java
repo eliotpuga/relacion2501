@@ -22,7 +22,6 @@ public static float conversion(float centigrados){
 	 System.out.print("Escribe los grados centígrados a convertir: ");
 	 gradosc=entrada.nextFloat();
 	 gradosf=32+(9*gradosc/5);	 
-	 return gradosf;
-	
+	 return gradosf;	
 }
 }
