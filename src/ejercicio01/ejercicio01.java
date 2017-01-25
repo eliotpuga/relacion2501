@@ -19,10 +19,9 @@ public static float conversion(float centigrados){
 	float gradosf=0;
 	float gradosc=0;
 	Scanner entrada=new Scanner (System.in);
-	 System.out.println("Escribe los grados centígrados a convertir: ");
+	 System.out.print("Escribe los grados centígrados a convertir: ");
 	 gradosc=entrada.nextFloat();
-	 gradosf=32+(9*gradosc/5);
-	 // Math.round(gradosf);
+	 gradosf=32+(9*gradosc/5);	 
 	 return gradosf;
 	
 }
